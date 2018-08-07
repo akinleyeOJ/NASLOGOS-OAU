@@ -8,6 +8,12 @@ html, body {
 
 }
 
+.ozil{
+    border: 2o0px;
+    border-style: solid;
+    border-color: #1c7430;
+}
+
 .navbar{
     padding: -1.7rem;
 

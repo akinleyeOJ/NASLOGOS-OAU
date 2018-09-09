@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 html, body {
@@ -5,7 +9,11 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color:#222;
+}
 
+header{
+    background-position: center;
+    background-size: cover;
 }
 
 .ozil{
@@ -110,7 +118,6 @@ html, body {
   margin: 0 500px;
 }
 
-
 h3:after{
   width: 130px;
   height: 2px;
@@ -124,8 +131,16 @@ h3:after{
 .features h3{
   margin-top: 40px;
   margin-bottom: 30px;
-
 }
+
+h6{
+    font-size: 20px;
+}
+
+.features h6 {
+    margin-top: 30px;
+}
+
 
 
 .arranging{

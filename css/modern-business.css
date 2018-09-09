@@ -3,6 +3,38 @@
     padding: 0;
 }
 
+.business_home1 .about_us,
+.business_home2 .about_us{
+    padding-top: 67px;
+    padding-bottom: 120px;
+}
+.about_us_title h1{
+    font-family: 'roboto',sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 70px;
+}
+.about_us_title h1::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #1cb9c8;
+    bottom: -20px;
+}
+.about_us_content {
+    padding-bottom: 16px;
+}
+.about_us_btn .business_btn{
+    padding: 0 34px;
+}
+.about_us_btn .business_btn:hover{
+    color: #1cb9c8;
+    border-color: #1cb9c8;
+}
 
 html, body {
     height: 100%;
@@ -14,6 +46,11 @@ html, body {
 header{
     background-position: center;
     background-size: cover;
+}
+
+.highlighted{
+    font-weight: 500;
+    color: #1cb9c8;
 }
 
 .ozil{
@@ -129,9 +166,10 @@ h3:after{
 }
 
 .features h3{
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
+
 
 h6{
     font-size: 20px;

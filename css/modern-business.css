@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+img{
+    vertical-align: middle;
+    border: 0;
+}
+
 .business_home1 .about_us,
 .business_home2 .about_us{
     padding-top: 67px;
@@ -41,11 +46,11 @@
 }
 
 .about_us_image img{
-    width: inherit;
+    width: 100% !important;
 }
-.row image{
 
-}
+
+
 .about_us_image:before,
 .about_us_image:after{
     content: "";
@@ -59,7 +64,6 @@
 }
 .about_us_image:before{
     top: 0;
-    left: 7px;
 }
 .about_us_image:after{
     bottom: 0;
@@ -70,6 +74,10 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color:#222;
+}
+
+p{
+    line-height: 30px;
 }
 
 header{

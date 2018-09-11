@@ -36,6 +36,35 @@
     border-color: #1cb9c8;
 }
 
+.about_us_image{
+    position: relative;
+}
+
+.about_us_image img{
+    width: inherit;
+}
+.row image{
+
+}
+.about_us_image:before,
+.about_us_image:after{
+    content: "";
+    position: absolute;
+    width: calc(100% - 159px);
+    height: 5px;
+    background: #1cb9c8;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.about_us_image:before{
+    top: 0;
+    left: 7px;
+}
+.about_us_image:after{
+    bottom: 0;
+}
+
 html, body {
     height: 100%;
     width: 100%;
@@ -170,7 +199,10 @@ h3:after{
   margin-bottom: 30px;
 }
 
-
+h5{
+    line-height: 30px;
+    font-size: small;
+}
 h6{
     font-size: 20px;
 }

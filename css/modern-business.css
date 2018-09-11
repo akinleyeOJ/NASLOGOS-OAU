@@ -115,18 +115,6 @@ header{
     display:  block;
 }
 
-@keyframes load{
-    0%{
-        transform: translateX(25px)
-    }
-    100%{
-        opacity:  1;
-        transform: translateX(0px);
-        box-shadow: 0px 0px 10px black;
-    }
-
-}
-
 
 
 
@@ -201,7 +189,7 @@ h3:after{
 
 h5{
     line-height: 30px;
-    font-size: small;
+    font-size:  medium;
 }
 h6{
     font-size: 20px;
@@ -248,5 +236,18 @@ hr.light {
 
 
 
+
+
+@keyframes load{
+    0%{
+        transform: translateX(25px)
+    }
+    100%{
+        opacity:  1;
+        transform: translateX(0px);
+        box-shadow: 0px 0px 10px black;
+    }
+
+}
 
 

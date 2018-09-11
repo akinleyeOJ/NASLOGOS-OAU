@@ -63,7 +63,7 @@ img{
 }
 
 .about_us_image{
-    position: !important;
+    position: relative !important;
 }
 
 .about_us_image img{
@@ -95,7 +95,7 @@ img{
 
 
 .ozil{
-    border: 2o0px;
+    border: 20px;
     border-style: solid;
     border-color: #1c7430;
 }

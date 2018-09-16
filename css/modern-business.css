@@ -246,7 +246,9 @@ hr.light {
     margin-bottom: 1rem;
 }
 
-
+.pull-right {
+    float: right!important;
+}
 
 .footer{
     background-size: cover;

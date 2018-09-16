@@ -249,10 +249,9 @@ hr.light {
 
 
 .footer{
-    background-image: url(../images/aee.jpg);
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    background: url(../img/finegirl.png) fixed;
 }
 .footer:before{
     position: absolute;
@@ -261,7 +260,7 @@ hr.light {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(27,41,50,0.95);
+    background: rgba(20,30,50,0.86);
 }
 .about_us_wrapper {
     padding-right: 50px;
@@ -276,23 +275,5 @@ hr.light {
 }
 
 
-
-
-
-
-
-
-
-@keyframes load{
-    0%{
-        transform: translateX(25px)
-    }
-    100%{
-        opacity:  1;
-        transform: translateX(0px);
-        box-shadow: 0px 0px 10px black;
-    }
-
-}
 
 

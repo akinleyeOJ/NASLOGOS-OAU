@@ -1596,7 +1596,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', e
    START FOOTER AREA
 -----------------------------*/
 .footer{
-	background-image: url(../images/aee.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/finegirl.png");
 	background-size: cover;
 	position: relative;
 	background-attachment: fixed;
@@ -1608,7 +1608,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', e
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(27,41,50,0.95);
+	background: lightblue;
 }
 .about_us_wrapper {
  	padding-right: 50px;
@@ -1758,11 +1758,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', e
 	opacity: 1;
 }
 .footer_wrapper{
-	border-bottom: 1px solid #2d3547;
+	border-bottom: 1px solid steelblue;
 }
 .tiny_footer{
 	padding: 20px 0;
-	background: #0e181e;
+	background: steelblue;
 }
 .tiny_footer p{
 	color: #eee;

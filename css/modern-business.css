@@ -21,7 +21,7 @@ header{
 
 .highlighted{
     font-weight: 500;
-    color: #1cb9c8;
+    color: steelblue;
 }
 
 img{
@@ -58,8 +58,8 @@ img{
     padding: 0 34px;
 }
 .about_us_btn .business_btn:hover{
-    color: #1cb9c8;
-    border-color: #1cb9c8;
+    color: steelblue;
+    border-color: steelblue;
 }
 
 .about_us_image{
@@ -70,6 +70,11 @@ img{
     width: 100% !important;
 }
 
+.video{
+    color: steelblue;
+}
+
+
 
 
 .about_us_image:before,
@@ -78,7 +83,7 @@ img{
     position: absolute;
     width: calc(100% - 159px);
     height: 5px;
-    background: #1cb9c8;
+    background: steelblue;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);

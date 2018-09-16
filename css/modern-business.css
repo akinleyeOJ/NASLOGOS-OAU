@@ -75,8 +75,6 @@ img{
 }
 
 
-
-
 .about_us_image:before,
 .about_us_image:after{
     content: "";
@@ -247,6 +245,39 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
+
+
+
+.footer{
+    background-image: url(../images/aee.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.footer:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(27,41,50,0.95);
+}
+.about_us_wrapper {
+    padding-right: 50px;
+}
+.footer_about_us {
+    margin-right: 50px;
+}
+.footer_about_us p{
+    color: #eee;
+    padding-top: 29px;
+    padding-bottom: 20px;
+}
+
+
+
+
 
 
 

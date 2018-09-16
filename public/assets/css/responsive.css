@@ -1,0 +1,472 @@
+@media screen and (min-width: 1200px) and (max-width: 1310px){
+
+}
+@media screen and (max-width: 991px){
+  .footer_about_us{
+    margin: 0;
+  }
+  .about_us_wrapper{
+    padding-right: 30px;
+  }
+  .footer_widgets.recent_post,.footer_widgets.instragram{
+    margin-top: 50px;
+  }
+  .single_blog_post,.single_blog_post.no_margin{
+    margin-bottom: 40px;
+  }
+  .pagination{
+    margin: 0;
+  }
+}
+@media (min-width: 768px){
+
+}
+/*
+////////////// MEDIUM DEVICES //////////////
+*/
+@media (min-width: 992px) and (max-width: 1199px){
+  .slider_navigatiors{
+    top: -24px;
+  }
+
+  /* SCROLL TOP */
+  .scroll_top{
+    right: calc((100% - 970px) / 4);
+  }
+
+  .single_blog_content blockquote{
+    margin: 46px 129px 45px 80px;
+  }
+  .single_recent_post{
+    width: 62%;
+  }
+}
+
+
+/*////////////// TAB OR LARGE MOBILE PHONE //////////////*/
+@media (min-width: 768px) and (max-width: 991px){
+
+  /* MENU CSS */
+  .mainmenu .navbar-nav li > a{
+    font-size: 13px;
+    padding:0 7px;
+  }
+  .has_dropdown .dropdwon {
+    width: 200px;
+  }
+  /* CALL TO ACTION*/
+  .call_to_action{
+    text-align: center;
+  }
+  .section_padding {
+    padding-bottom: 88px;
+    padding-top: 92px;
+  }
+  .promo_btn{
+    float: none;
+  }
+
+  /*team area*/
+  .slider_navigatiors{
+    top: -28px;
+  }
+
+  /*TESTOMONIAL AREA*/
+  .single_testimonial{
+    padding: 75px 50px 35px;
+  }
+
+  /*CONTACT AREA*/
+  .form_wrapper .message_btn{
+    margin-top: 0;
+  }
+
+  .scroll_top{
+    right: calc((100% - 750px) / 4);
+  }
+
+  /*Sinngle Blog Page*/
+  .single_recent_post {
+    width: 63%;
+  }
+  .single_blog_content blockquote{
+    margin: 36px 30px 35px;
+  }
+}
+
+
+/*////////////// CUSTOM RESPONSIVE CSS //////////////*/
+@media screen and (max-width: 767px){
+  .container{
+    width: 450px;
+  }
+  .section_padding {
+    padding-bottom: 78px;
+    padding-top: 82px;
+  }
+  .about_us_title h1{
+    margin-bottom: 45px;
+  }
+  .section_title .title{
+    font-size: 28px;
+  }
+
+  /* MOBILE MENU CSS */
+  .navbar-default .navbar-toggle{
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover{
+    background: none;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background: #fff;
+    height: 1px;
+  }
+  .navbar-default .navbar-toggle .cross:before,
+  .navbar-default .navbar-toggle .cross:after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    left: 0;
+    position: absolute;
+  }
+  .navbar-default .navbar-toggle .cross{
+    position: relative;
+  }
+  .navbar-default .navbar-toggle .cross:before{
+    top: -5px;
+  }
+  .navbar-default .navbar-toggle .cross:after{
+    bottom: -5px;
+  }
+  .mainmenu .navbar .container{
+    position: relative;
+  }
+  #bs-example-navbar-collapse-1{
+    padding:10px 20px;
+    background: #1b2932;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    max-height: calc(100vh - 100px);
+  }
+  /*.dropdwon{
+    transition: 0;
+  }*/
+  .serach_icon{
+    display: none;
+  }
+  .mainmenu .nav > li{
+    border-bottom: 1px solid #1f303b;
+  }
+  .mainmenu .nav > li:last-child{
+    border-bottom: 0;
+  }
+  .mainmenu .navbar-nav li > a{
+    line-height: 40px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .mainmenu .navbar-nav > li > a::before{
+    display: none;
+  }
+  .mainmenu .navbar-nav li > a:hover,
+  .mainmenu .navbar-nav li > a:focus,
+  .mainmenu .navbar-nav > li:hover > a{
+    color: #1cb9c8;
+  }
+  .navbar-nav{
+    margin: 0;
+  }
+  .has_dropdown a span{
+    float: right;
+  }
+  .has_dropdown .dropdwon{
+    position: initial;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    background: #1c2b35;
+    transition: 0s;
+  }
+  .has_dropdown .dropdwon ul li{
+    border-bottom:0;
+  }
+  .mainmenu .navbar-nav li a span {
+    margin-top: 13px;
+  }
+  .has_dropdown .dropdwon ul li a:hover{
+    background: none;
+  }
+  /* TINY HEADER STYLE GOES HERE */
+  .tiny_header{
+    text-align: center;
+  }
+  .contact_email{
+    margin-bottom: 10px;
+  }
+  .tiny_header .contact_email, .social_icons{
+    float: none;
+  }
+
+  /* menu area css */
+  .mainmenu .navbar > .container .navbar-brand{
+    padding-top: 9px;
+  }
+
+  /*SLIDER AREA CSS*/
+  .single_slider_wrapper .small_title{
+    font-size: 18px;
+  }
+  .single_slider_wrapper .big_title{
+    font-size: 42px;
+  }
+
+  /* ABOUYT US SECTIION */
+  .about_us_image{
+    margin-top: 45px;
+  }
+
+  /* SERVICE AREA CSS */
+  .single_service{
+    background: #F9F9F9;
+    border: 1px solid #eee;
+    padding: 20px 20px 10px;
+    margin-bottom: 30px;
+  }
+  .single_service.no_margin{
+    margin: 0;
+  }
+
+  /* CALL TO ACTION SECTION  */
+  .call_to_action{
+    text-align: center;
+    padding: 50px 0;
+  }
+  .call_to_action .promo_text{
+    font-size: 20px;
+  }
+  .promo_btn{
+    float: none;
+  }
+  .call_to_action .promo_text .focused{
+    font-size: 30px;
+  }
+
+  /* WHAT WE DO AREA */
+  .what_we_do{
+    margin-bottom: 50px;
+  }
+
+  /* WHAT WE DO AREA */
+  .hover_overlay .social_links{
+    width: 100%;
+    text-align: center;
+  }
+
+  /* testiomonial area */
+  .testimonial_wrapper{
+    margin-top: 50px;
+  }
+  .single_testimonial{
+    padding: 75px 45px 45px;
+  }
+  .testimonial_text::before{
+    right: 100%;
+  }
+
+  /* CONTACT AREA CSS */
+  .contact_address_wrapper{
+    margin-top: 35px;
+  }
+  .contact .social_icons{
+    margin-top: 15px;
+  }
+  .footer_widgets.sevices{
+    margin-top: 50px;
+  }
+  .footer_text, .footer_social{
+    float: none;
+  }
+  .tiny_footer{
+    text-align: center;
+  }
+
+  /* SERVICE AREA CSS  */
+  .choose_callback_title > h1{
+    font-size: 26px;
+  }
+  .choose_us_text {
+    padding-bottom: 20px;
+    padding-top: 28px;
+  }
+  .services_page .single_service,
+  .services_page .single_service.no_margin{
+    margin-bottom: 35px;
+  }
+  .call_back_wrapper{
+  	margin-top: 50px;
+  }
+
+  /* SINGLE BLOG PAGE CSS */
+  .search_bar {
+    margin-bottom: 40px;
+  }
+  .single_blog_content blockquote{
+    margin: 20px;
+  }
+  .tag_share .social_icons{
+    float: right;
+  }
+  .margin_xs{
+    margin-top: 50px;
+  }
+  .comments {
+    margin-top: 30px;
+  }
+  .comments .media{
+    margin-bottom: 30px;
+  }
+  .reply_comments {
+    margin-left: 45px;
+  }
+  .project_content_title h3{
+
+  }
+
+  /* SSINBGLE SERVICE PAGE */
+  .service_sidebar .service_catagory{
+    text-align: center;
+  }
+  .service_catagory ul li{
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .service_catagory ul li a{
+    padding: 0 20px;
+  }
+}
+
+/*////////////// EXTRA SMALL DEVICES //////////////*/
+@media (min-width: 480px) and (max-width: 767px){
+  .scroll_top{
+    right: calc((100% - 450px) / 4);
+  }
+  .single_project_page .portfolio_item_top_layer{
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    left: 15px;
+    top: 15px;
+  }
+  .portfolio_item_top_layer .content_wrapper .links a{
+    margin-right: 4px;
+  }
+  .related_project_slider_wrapper .content_wrapper{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+/*////////////// EXTRA SMALL DEVICES //////////////*/
+@media (min-width: 300px) and (max-width: 479px){
+  .container{
+    width: 300px;
+  }
+
+  /* SUB TITLE */
+  .sub_text{
+    padding: 0;
+  }
+  /* HERO AREA CSS */
+  .hero_btn{
+    min-width: 115px;
+    font-size: 12px;
+  }
+  .camera_pag{
+    bottom: 45px;
+  }
+  /* PORTFOLIO AREA CSS */
+  .portfolio_wrapper{
+    margin-top: 35px;
+  }
+  .portfolio_filter ul li{
+    margin-bottom: 5px;
+  }
+  .portfolio_filter ul li span{
+    font-size: 12px;
+    margin: 0 10px;
+  }
+  .filter_list li span::before, .filter_list li span::after{
+    bottom: 0;
+  }
+
+  /* TEAM AREA CSS */
+  .team .hover_overlay{
+    width: calc(100% - 20px);
+    left: 10px;
+    height: calc(100% - 20px);
+    top: 10px;
+  }
+  .slider_navigatiors{
+    top: -25px;
+  }
+  .slider_navigatiors span{
+    width: 30px;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .single_testimonial{
+    padding: 75px 45px 30px;
+  }
+
+  /* SCROLL TOP */
+  .scroll_top{
+    right: calc((100% - 300px) / 4);
+  }
+
+  /* SINGLE BLOG PAGE CSS */
+  .comments .media .pull-left {
+    float: none!important;
+  }
+  .hidden-xs-m{
+    display: none;
+  }
+  .visible-xs-m{
+    display: block;
+  }
+  .reply.visible-xs-m{
+    display: block;
+  }
+  .media .pull-left .cmnt_img {
+    display: inline-block;
+  }
+  .comments .media > .pull-left{
+    text-align: center;
+    padding: 0;
+  }
+  .media_top{
+    text-align: center;
+  }
+  .huge_text{
+    margin-bottom: 35px;
+  }
+  .huge_text > p{
+    font-size: 150px;
+  }
+  .huge_text p span.zero{
+    font-size: 100px;
+  }
+  .alas_message{
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .form_wrapper .input_half_width{
+    width: 100%;
+  }
+}

@@ -314,6 +314,18 @@ figure {
 }
 
 
+.tiny_footer{
+	padding: 20px 0;
+  background: steelblue !important;
+}
+.tiny_footer p{
+	color: #eee;
+	margin: 0;
+}
+.tiny_footer p a{
+	color: #eee;
+}
+
 
 
 

@@ -282,26 +282,7 @@ textarea:focus{
 }
 
 /* BREADCRUMB AREA CSS */
-.breadcrumb{
-	background-image: url('../images/aee.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	padding: 80px 0 77px;
-	margin: 0;
-}
-.breadcrumb::before{
-	position: absolute;
-	content: "";
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+67,4c4c4c+100&0.9+33,0+100 */ /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  rgba(0,0,0,0.9) 33%,rgba(0,0,0,0.44) 67%,rgba(76,76,76,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  rgba(0,0,0,0.9) 33%,rgba(0,0,0,0.44) 67%,rgba(76,76,76,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#004c4c4c',GradientType=1 ); /* IE6-9 */
-}
+
 .page_title > h1{
 	font-family: "Roboto",sans-serif;
 	font-size: 30px;
@@ -424,7 +405,7 @@ textarea:focus{
         visibility: visible;
     }
 }
--webkit-@keyframes fadeInLeftShort{
+-webkit-@keyframes fadeInLeftShort {
     from{
         -webkit-transform: translateX(40px);
         transform: translateX(40px);

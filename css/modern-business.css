@@ -251,7 +251,7 @@ hr.light {
 .footer{
     background-size: cover;
     position: relative;
-    background: url(../img/finegirl.png) fixed;
+    background: url(../img/aee.jpg) fixed;
 }
 .footer:before{
     position: absolute;
@@ -260,7 +260,7 @@ hr.light {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(20,30,50,0.86);
+    background: rgba(28,185,200,0.9);
 }
 .about_us_wrapper {
     padding-right: 50px;
@@ -273,6 +273,96 @@ hr.light {
     padding-top: 29px;
     padding-bottom: 20px;
 }
+
+
+.footer_links ul li a{
+	line-height: 32px;
+	color: #f1f1f1;
+	display:inline-block;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.footer_links ul li a:hover{
+	color: #188a6d ;
+}
+.footer_links.social{
+	width: 100%;
+}
+.footer_links.social ul li a p {
+ 	display: inline-block;
+ 	color: #eee;
+ 	font-size: 12px;
+ 	font-weight: 400;
+}
+.insta_post ul li {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 2px;
+	position: relative;
+}
+.insta_post ul li a{
+	position: relative;
+	display: block;
+}
+.insta_post ul li a:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	background: rgba(28,185,200,0.9);
+	opacity: 0;
+}
+.insta_post ul li a:hover:before{
+	opacity: 1;
+}
+.insta_post ul li a span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	color: #f1f1f1;
+	opacity: 0;
+}
+.insta_post ul li a:hover span{
+	opacity: 1;
+}
+.footer_wrapper{
+	border-bottom: 1px solid #188a6d ;
+}
+.tiny_footer{
+	padding: 20px 0;
+  background: steelblue;
+}
+.tiny_footer p{
+	color: #eee;
+	margin: 0;
+}
+.tiny_footer p a{
+	color: #eee;
+}
+.footer_text{
+	float: left;
+}
+.footer_text a:hover{
+	color: #1cb9c8;
+}
+.footer_social{
+	float: right;
+}
+.footer_social ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer_social ul li a{
+	color: #eee;
+	font-size: 14px;
+	line-height: 24px;
+}
+.footer_social ul li a:hover{
+	color: #1cb9c8;
+}
+
 
 
 

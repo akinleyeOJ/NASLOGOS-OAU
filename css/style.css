@@ -10,9 +10,6 @@ body {
     }
 }
 
-
-
-----------------------------caro________________
 .corousel-inner img{
     width: 100%;
     height: 100%;
@@ -53,13 +50,10 @@ body {
     opacity: 0;
 }
 
------------------caro end---------------->
-
 .copy{
     width: 70%;
     margin-left: 15%;
 }
-
 
 .h3{
     margin: 0 500px;
@@ -115,11 +109,6 @@ footer.second p {
 footer.third{
     background-color: steelblue;
 }
-
-hr{
-
-}
-
 
 
 
@@ -272,7 +261,6 @@ hr.light-100{
 }
 
 
-/*---Firefox Bug Fix --*/
 .carousel-item {
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -308,7 +296,6 @@ figure {
     transform: translateZ(0);
     will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
@@ -325,27 +312,6 @@ figure {
 .tiny_footer p a{
 	color: #eee;
 }
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
 
 
 

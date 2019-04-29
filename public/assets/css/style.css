@@ -405,7 +405,7 @@ textarea:focus{
         visibility: visible;
     }
 }
--webkit-@keyframes fadeInLeftShort {
+@keyframes fadeInLeftShort {
     from{
         -webkit-transform: translateX(40px);
         transform: translateX(40px);
@@ -440,7 +440,7 @@ textarea:focus{
 @keyframes clockwise {
   to {-webkit-transform: rotate(360deg) translatez(0);transform: rotate(360deg) translatez(0);}
 }
--webkit-@keyframes clockwise {
+@keyframes clockwise {
   to {-webkit-transform: rotate(360deg) translatez(0);transform: rotate(360deg) translatez(0);}
 }
 
@@ -474,7 +474,7 @@ textarea:focus{
 }
 .social_icons{
 	display: inline-block;
-	float: right;
+	
 }
 .social_icons li,
 .tiny_header .contact_lang li{
@@ -613,7 +613,7 @@ textarea:focus{
 	display: inline-block;
 	position: relative;
 	padding: 0 10px;
-	float: right;
+	
 }
 .serach_icon:hover .search_form{
 	visibility: visible;
